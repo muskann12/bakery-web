@@ -28,15 +28,16 @@ export default function HomePage() {
               <Image
                 src={product.image}
                 alt={product.name}
-                width={300}  // Set width
-                height={200} // Set height
-                className="rounded-t-lg object-cover" // Use object-cover for proper aspect ratio
+                width={300}
+                height={200}
+                className="rounded-t-lg object-cover"
               />
               <div className="flex flex-col justify-between items-center mt-4 bg-pink-100">
                 <h3 className="text-2xl font-extrabold text-blue-400">{product.name}</h3>
-                <p className="text-lg font-semibold text-pink-600">{product.price}</p> {/* Price added here */}
-                <button className="text-pink-600 hover:text-pink-700 mt-2">
-                  <FaCartPlus size={25} />
+                <p className="text-lg font-semibold text-pink-600">{product.price}</p>
+                <button className="flex items-center gap-2 bg-pink-600 text-white px-4 py-2 rounded-md mt-2 hover:bg-pink-700 transition">
+                  <FaCartPlus size={20} />
+                  <span>Add to Cart</span>
                 </button>
               </div>
             </div>
