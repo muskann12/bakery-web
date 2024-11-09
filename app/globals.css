@@ -3,6 +3,6 @@
 @tailwind utilities;
 /* styles/globals.css */
 body {
-  @apply bg-pink-100; /* Change this to your desired Tailwind color */
-  margin: 0; /* Optional: Reset default margin */
+  @apply bg-pink-100; 
+  margin: 0; 
 }

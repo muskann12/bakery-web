@@ -5,11 +5,11 @@ import Image from 'next/image';
 import Footer from './components/Footer';
 
 const specialties = [
-  { name: 'Chocolate Cake', image: '/images/cc.jpeg', price: '$25' },
+  { name: 'Chocolate Cake', image: '/images/chocolate.jpeg', price: '$25' },
   { name: 'Blueberry Cake', image: '/images/bb.jpeg', price: '$30' },
   { name: 'Fudge Brownie', image: '/images/f1.jpeg', price: '$15' },
-  { name: 'Coca Cake', image: '/images/h.jpeg', price: '$20' },
-  { name: 'Muffins', image: '/images/c1.jpeg', price: '$10' },
+  { name: 'Coca Cake', image: '/images/cake3.jpeg', price: '$20' },
+  { name: 'Muffins', image: '/images/muffins.jpeg', price: '$10' },
   { name: 'Lemon Tart', image: '/images/l1.jpeg', price: '$12' },
 ];
 

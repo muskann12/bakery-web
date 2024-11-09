@@ -1,4 +1,4 @@
-// app/components/About.tsx
+
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -12,10 +12,10 @@ const About: React.FC = () => {
       <div className="container mx-auto p-6 flex flex-col md:flex-row items-center bg-pink-100">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <Image
-            src="/images/b.jpeg" // Replace with your image path
+            src="/images/b.jpeg" 
             alt="Bakery Interior"
-            width={500} // Set appropriate width
-            height={400} // Set appropriate height
+            width={500} 
+            height={400} 
             className="rounded-lg"
           />
         </div>
